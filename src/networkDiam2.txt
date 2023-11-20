@@ -1,0 +1,32 @@
+Mode Tree
+
+AddNode A: B C D
+AddNode B: G
+AddNode C
+AddNode D: E F I
+AddNode E: J K L
+AddNode F: H
+AddNode G
+AddNode H
+AddNode I
+AddNode J
+AddNode K
+AddNode L
+
+RootNode A
+
+PlaceNode A: 200 0
+PlaceNode B: 0 200
+PlaceNode C: 200 200
+PlaceNode D: 400 200
+PlaceNode E: 300 400
+PlaceNode F: 500 400
+PlaceNode G: 0 400
+PlaceNode H: 500 600
+PlaceNode I: 700 400
+PlaceNode J: 200 600
+PlaceNode K: 300 600
+PlaceNode L: 400 600
+
+LoadAlgorithm Diameter
+RoundTime 1000
